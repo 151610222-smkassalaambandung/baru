@@ -33,3 +33,7 @@ Route::get('/home', 'HomeController@index');
 
    });
 
+ Route::get('test', function(){
+ 	return view ('layouts.backend');
+ });
+
